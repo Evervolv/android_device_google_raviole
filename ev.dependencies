@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "android_device_google_gs101",
+    "target_path": "device/google/gs101",
+    "dep_type": "device"
+  },
+  {
+    "repository": "android_vendor_google_oriole",
+    "target_path": "vendor/google/oriole",
+    "remote": "evervolv-gitlab"
+  }
+]
