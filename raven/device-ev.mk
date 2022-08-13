@@ -7,3 +7,7 @@
 $(call inherit-product, $(DEVICE_PATH)/device-ev.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/$(DEVICE_CODENAME)/overlay-ev
+
+# Init
+PRODUCT_PACKAGES += \
+    init.recovery.raven.touch.rc
