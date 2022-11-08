@@ -26,9 +26,9 @@ PRODUCT_CODENAME := Acerbus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=raven \
-    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002 9012097 release-keys" \
-    BUILD_THUMBPRINT="13/TP1A.221005.002/9012097:user/release-keys"
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221105.002 9080065 release-keys" \
+    BUILD_THUMBPRINT="13/TP1A.221105.002/9080065:user/release-keys"
 
-BUILD_FINGERPRINT := google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:13/TP1A.221105.002/9080065:user/release-keys
 
 $(call inherit-product, vendor/google/raven/raven-vendor.mk)
