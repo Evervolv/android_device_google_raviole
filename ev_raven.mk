@@ -11,7 +11,8 @@ $(call inherit-product, $(SRC_EVERVOLV_DIR)/config/common_full_phone.mk)
 $(call inherit-product, device/google/raviole/aosp_raven.mk)
 
 $(call inherit-product, device/google/gs101/evervolv_common.mk)
-$(call inherit-product, device/google/raviole/device-evervolv.mk)
+
+include device/google/raviole/raven/device-evervolv.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
