@@ -27,8 +27,8 @@ PRODUCT_CODENAME := Candidus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=oriole \
-    PRIVATE_BUILD_DESC="oriole-user 13 TQ2A.230505.002 9891397 release-keys"
+    PRIVATE_BUILD_DESC="oriole-user 13 TQ3A.230605.010 10121037 release-keys"
 
-BUILD_FINGERPRINT := google/oriole/oriole:13/TQ2A.230505.002/9891397:user/release-keys
+BUILD_FINGERPRINT := google/oriole/oriole:13/TQ3A.230605.010/10121037:user/release-keys
 
 $(call inherit-product, vendor/google/oriole/oriole-vendor.mk)
