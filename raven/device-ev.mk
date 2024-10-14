@@ -4,6 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include $(DEVICE_PATH)/BoardConfigLineage.mk
+$(call inherit-product, $(DEVICE_PATH)/device-ev.mk)
 
-include $(VENDOR_PATH)/BoardConfigVendor.mk
+DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/$(DEVICE_CODENAME)/overlay-ev
