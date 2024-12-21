@@ -53,4 +53,4 @@ endif
 
 DEVICE_PATH := device/google/raviole
 VENDOR_PATH := vendor/google/oriole
-include $(DEVICE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/BoardConfigLineage.mk
+include $(DEVICE_PATH)/$(TARGET_BOOTLOADER_BOARD_NAME)/BoardConfigEv.mk
